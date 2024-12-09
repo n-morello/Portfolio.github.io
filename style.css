@@ -1,0 +1,612 @@
+body {
+margin: 0;
+max-width: 100%;
+}
+img {
+    max-width:100%;
+    height:auto;
+}
+header {
+    background-color: #3BCEF7;
+    padding: 2.5rem 0 2.5rem 1rem;
+    max-width:100%;
+    margin:0;
+}
+nav img {
+    max-height: 117px;
+    height: auto;
+    margin: 0;
+}
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    gap: 10%;
+    padding-left: 0px;
+    margin: 0;
+    max-width: 100%;
+}
+.small-menu {
+    display: none;
+}
+header nav a {
+    margin:0;
+    padding: 1%;
+}
+a {
+    text-decoration: none;
+    font-family: "Itim";
+}
+nav a {
+    font-size: 36pt;
+    font-size: clamp(0.9375rem, -0.1744rem + 2.965vw, 3rem);
+    text-decoration: none;
+    color: black;
+}
+.swiper {
+    width: 50%;
+    height: 25%;
+  }
+  .swiper-card {
+    display: flex;
+    align-items: center;
+  }
+  .swiper-wrapper {
+    align-items: center;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    color: white;
+}
+  .Work-Carousel {
+    padding: 5rem 0 3rem 0;
+    background-image: url("The\ Cyclops.jpg");
+    background-size: cover;
+  }
+  .WorkButton {
+    display: flex;
+    justify-content: center;
+  }
+.Work-Carousel a {
+    background-color: #3BCEF7;
+    font-family: "Itim";
+    font-size: 30pt;
+    font-size: clamp(0.78125rem, -0.1453rem + 2.4708vw, 2.5rem);
+    text-align: center;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    color: #ffffff;
+    margin-top: 2rem;
+}
+.Bio {
+    background-color: #F0FCFF;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    max-width:100%;
+}
+.Bio-words {
+    margin-left: 8%;
+    max-width: 50%;
+    min-width: 35%;
+}
+.Bio-words h2 {
+    font-size: 72pt;
+    font-size: clamp(1.875rem, -0.3487rem + 5.9299vw, 6rem);
+    font-family: "Itim";
+    margin-bottom: 0;
+}
+.Bio-words p {
+    font-size: 28pt;
+    font-size: clamp(0.729375rem, -0.1353rem + 2.3058vw, 2.333333333125rem);
+    font-family: "Itim";
+    margin-bottom: 0;
+}
+.Bio img {
+    max-height: 600px;
+    height:auto;
+    padding: 5% 5% 5% 3%;
+    max-width:50%;
+    width:auto
+}
+@media screen and (width < 1007px) {
+    .Bio img {
+        max-height: 500px;
+        width: auto;
+    }
+}
+@media screen and (width < 860px) {
+    .Bio img {
+        max-height: 450px;
+        width: auto;
+    }
+}
+@media screen and (width < 767px) {
+    .Bio img {
+        max-height: 400px;
+        width: auto;
+    }
+}
+@media screen and (width < 679px) {
+    .Bio img {
+        max-height: 350px;
+        width: auto;
+    }
+}
+.Bio-words a {
+    background-color: #3BCEF7;
+    color: #ffffff;
+    font-size: 36pt;
+    font-size: clamp(0.9375rem, -0.1744rem + 2.965vw, 3rem);
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+.Read-More {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.DesignH1 {
+   display: flex;
+   justify-content: center;
+}
+.DesignH1 h1 {
+    font-size: 72pt;
+    font-size: clamp(1.875rem, -0.3487rem + 5.9299vw, 6rem);
+    font-family: "Irish Grover";
+}
+.Design-Areas {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 20%;
+}
+.Design-Card img {
+    height:auto;
+    max-width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+}
+#poster-card img {
+    max-height:200px;
+}
+@media screen and (width < 850px){
+    #poster-card img {
+        max-height:100px;
+    }
+}
+.Design-Card h3 {
+    font-size: 32pt;
+    font-size: clamp(0.83333333125rem, -0.155rem + 2.6355vw, 2.6666666625rem);
+    text-align: center;
+    font-family: "Itim";
+    margin: 0;
+}
+#browsers-card img {
+    margin-bottom:-30%;
+}
+footer {
+    background-color: #3BCEF7;
+    margin: 0;
+    font-family: "itim";
+    font-size: 30pt;
+    font-size: clamp(0.78125rem, -0.1453rem + 2.4708vw, 2.5rem);
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0 3rem 0;
+}
+footer p {
+    margin: 0;
+}
+@media screen and (width < 600px) {
+    header {
+        padding: 1rem 0 1rem 1rem;
+    }
+    .big-menu {
+        display: none;
+    }
+    .small-menu {
+        display: block;
+    }
+    .small-menu nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .small-logo {
+        display: flex;
+        justify-content: center;
+    }
+    .small-logo img {
+        max-height: 100px;
+    }
+    .swiper {
+        width:80%;
+        height: 35%;
+    }
+    .Work-Carousel a {
+        padding: .75rem 1rem .75rem 1rem;
+    }
+    .Bio img {
+        display:none;
+    }
+    .Bio {
+        display: flex;
+        justify-content: center;
+        background-image: url(IMG_20240311_145609278~2.jpg);
+        background-size:cover;
+        background-position: center;
+    }
+    .Bio-words {
+        margin: 0;
+        background-color: rgba(240, 252, 255, 0.4);
+        max-width: 100%;
+    }
+    .Bio-words a {
+        padding: .75rem 1rem .75rem 1rem;
+    }
+    .Design-Areas {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #poster-card img {
+        max-height: 180px;
+    }
+}
+@media screen and (width <411px) {
+    footer {
+        display: block;
+        font-size: 20pt;
+        text-align: center;
+        padding: 1rem 0 1rem 0;
+    }
+    .bullet {
+        display: none;
+    }
+}
+/*About Me CSS*/
+.Biofull {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.Biofull img {
+    max-height: 600px;
+    height:auto;
+    padding: 5% 5% 5% 0%;
+    max-width:50%;
+    width:auto
+}
+.EdandExp {
+    background-color: #F0FCFF;
+    padding: 3rem 0 3rem 0;
+    margin: 5rem 0 20rem 0;
+}
+.EdandExp h1 {
+    font-size: 72pt;
+    font-size: clamp(1.875rem, -0.3487rem + 5.9299vw, 6rem);
+    font-family: "Irish Grover";
+    text-align: center;
+    margin: 0;
+}
+.EdandExp h3 {
+    font-family: "Itim";
+    font-size: 48pt;
+    font-size: clamp(1.25rem, -0.2325rem + 3.9533vw, 4rem);
+    margin: 0;
+}
+.EdandExp h4 {
+    font-family: "Itim";
+    font-size: 36pt;
+    font-size: clamp(0.9375rem, -0.1744rem + 2.965vw, 3rem);
+    margin: 0;
+}
+.degree {
+    font-family: "Itim";
+    font-size: 30pt;
+    font-size: clamp(0.78125rem, -0.1453rem + 2.4708vw, 2.5rem);
+    display: flex;
+    justify-content: left;
+    gap: 10rem;
+    margin: 0;
+}
+.degree p {
+    margin: 0;
+}
+.EdandExp ul {
+    font-family: "Itim";
+    font-size: 30pt;
+    font-size: clamp(0.78125rem, -0.1453rem + 2.4708vw, 2.5rem);
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.EdandExp ul:last-of-type {
+    margin-bottom: 2rem;
+}
+.EdandExp h3:last-of-type {
+    margin-top: 2rem;
+}
+h4 a {
+    text-decoration: underline;
+}
+.EdContent {
+    margin-left: 8%;
+}
+@media screen and (width < 1007px) {
+    .Biofull img {
+        max-height: 500px;
+        width: auto;
+    }
+}
+@media screen and (width < 860px) {
+    .Biofull img {
+        max-height: 450px;
+        width: auto;
+    }
+}
+@media screen and (width < 767px) {
+    .Biofull img {
+        max-height: 400px;
+        width: auto;
+    }
+}
+@media screen and (width < 679px) {
+    .Biofull img {
+        max-height: 350px;
+        width: auto;
+    }
+}
+@media screen and (width < 600px) {
+    .degree {
+        display:block
+    }
+    .Biofull {
+        display: block;
+        margin: 0;
+    }
+    .Biofull .Bio-words {
+        margin: 0;
+    }
+    .Biosmall {
+        display: flex;
+        justify-content: center;
+        margin:0;
+    }
+}
+/*Work CSS*/
+.mobileheadings {
+    display: none;
+}
+.animationandvideosmall {
+    display: none;
+}
+menu {
+    list-style: none;
+    background-color: #F0FCFF;
+    margin: 0 0 0 0;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    max-width: 15%;
+    min-width: 10%;
+}
+menu li {
+    padding: 20% 5% 20% 0;
+    margin: 0;
+}
+menu li a {
+    font-family: "Itim";
+    font-size: 24pt;
+    font-size: clamp(0.625rem, -0.1162rem + 1.9766vw, 2rem);
+    color: black;
+    margin: 0;
+}
+main {
+    display: flex;
+    margin-left: 18%;
+}
+main img {
+    max-height: 311px;
+    height:auto;
+}
+.posterdesigns, .digitalillustrations, .traditionalillustrations, .animationandvideobig, .animationandvideosmall, .studiesandsketches {
+    margin: 3rem 0 3rem 0;
+}
+.PopUp {
+    max-height: 290px;
+    height: auto;
+}
+.work-footer {
+    margin: 0;
+    margin-top: 6.75rem;
+}
+@media screen and (width < 600px) {
+    menu {
+        display: none;
+    }
+    .mobileheadings {
+        display: flex;
+        justify-content: center;
+        font-family: "Irish Grover";
+        font-size: larger;
+        margin: 0;
+        padding: 0;
+        background-color: #F0FCFF;
+        max-width:100%
+    }
+    .animationandvideobig {
+        display:none
+    }
+    .animationandvideosmall {
+        display:block;
+    }
+    main {
+        margin: 0;
+        max-width: 100%;
+    }
+    main img {
+        max-height: 290px;
+        height: auto;
+    }
+    .img-list {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+}
+/*Contact Info CSS*/
+h2 {
+    font-family: "Itim";
+    font-size: 72pt;
+    font-size: clamp(1.875rem, -0.3487rem + 5.9299vw, 6rem);
+    margin: 2% 3% 2% 3%;
+}
+label {
+    font-family:"Itim";
+    font-size: 40pt;
+    font-size: clamp(1.0416625rem, -0.1937rem + 3.2944vw, 3.3333333333333126rem);
+}
+input {
+    border-color: #3BCEF7;
+    border-style: solid;
+    font-family: "Itim";
+    font-size: 28pt;
+    font-size: clamp(0.875rem, 0.0888rem + 2.0964vw, 2.3333333333333335rem);
+}
+textarea {
+    border-color: #3BCEF7;
+    border-style: solid;
+    border-width: 2px;
+    font-family: "Itim";
+    font-size: 28pt;
+    font-size: clamp(0.875rem, 0.0888rem + 2.0964vw, 2.3333333333333335rem);
+}
+.form-sections {
+    margin-left: 3%;
+    width: 80%;
+}
+.smallforms {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Nameform {
+    width: 30%;
+}
+.Emailform {
+    width: 65%;
+}
+#Name, #EmailAddress {
+    width: 100%;
+    height: 3rem;
+}
+#Message {
+    height: 20rem;
+    width: 100%;
+}
+#submit {
+    font-family: "Itim";
+    color: #ffffff;
+    background-color: #3BCEF7;
+    font-size: 36pt;
+    font-size: clamp(0.9375rem, -0.1744rem + 2.965vw, 3rem);
+    padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+    margin-top: 2%;
+}
+.contactlines {
+    margin-top: 3rem;
+    display: grid;
+}
+.contactlines h4 {
+    font-family: "Itim";
+    font-size: 40pt;
+    font-size: clamp(1.0416625rem, -0.1937rem + 3.2944vw, 3.3333333333333126rem);
+    margin: 0 0 0 8%;
+}
+.contactlines p {
+    font-family: "Itim";
+    font-size: 36pt;
+    font-size: clamp(0.9375rem, -0.1744rem + 2.965vw, 3rem);
+    margin: 0;
+}
+.email {
+    display: grid;
+    grid: auto;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    background-color: #F0FCFF;
+    grid-template-columns: [section-start] 1fr [section-end content-start] 1.75fr [short-end] 1.75fr [long-end];
+}
+.email h4 {
+    columns: section-start, section-end;
+    text-align: left;
+}
+.email p {
+    columns: content-start, long-end;
+}
+.emailsmall {
+    display: none;
+}
+.phonenumber {
+    display: grid;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    background-color: #F0FCFF;
+    grid-template-columns: [section-start] 1fr [section-end content-start] 1.75fr [short-end] 1.75fr [long-end];
+}
+.phonenumber h4 {
+    text-align: left;
+}
+.youtube {
+    display: grid;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    background-color: #F0FCFF;
+    grid-template-columns: [section-start] 1fr [section-end content-start] 1.75fr [short-end] 1.75fr [long-end];
+}
+.youtube h4 {
+    text-align: left;
+}
+.instagram {
+    display: grid;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    background-color: #F0FCFF;
+    grid-template-columns: [section-start] 1fr [section-end content-start] 1.75fr [short-end] 1.75fr [long-end];
+}
+.instagram h4 {
+    text-align: left;
+}
+@media screen and (width < 600px){
+    .email {
+        display: none;
+    }
+    .emailsmall {
+        display: grid;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 1rem 0 1rem 0;
+        margin-bottom: 4rem;
+        background-color: #F0FCFF;
+        grid-template-columns: [section-start] 1fr [section-end content-start] 1.75fr [short-end] 1.75fr [long-end];
+    }
+    .emailsmall h4 {
+        text-align: left;
+    }
+}
+/*hover states*/
+a:hover {
+    background-color: #F0FCFF;
+    color: #288ca7;
+}
+#submit:hover {
+    background-color: #F0FCFF;
+    color: #288ca7;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Itim&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="big-menu">
+        <a href="index.html">Home</a>
+        <a href="AboutMe.html">About Me</a>
+        <img src="NMlogo.png" alt="Nico Morello logo" />
+        <a href="Work.html">Work</a>
+        <a href="ContactInfo.html">Contact Info</a>
+      </nav>
+      <div class="small-menu">
+        <div class="small-logo">
+          <img src="NMlogo.png" alt="Nico Morello logo" />
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="AboutMe.html">About Me</a>
+          <a href="Work.html">Work</a>
+          <a href="ContactInfo.html">Contact Info</a>
+        </nav>
+      </div>
+    </header>
+    <div class="Work-CarouselAll">
+      <div class="Work-Carousel">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="Project2_AdforConference_Morello.jpg"
+                alt="ficitonal ad for Photoshop conference"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="DreamerExpressiveType copy.jpg"
+                alt="Hand made out of type"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="AbstractSelfPortrait.jpg"
+                alt="abstract self portrait"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="ChapelDrawing.jpg"
+                alt="drawing of St. Joseph Chapel at Seton Hill University"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="TypeHistoryPosters1.jpg"
+                alt="poster about the history of the Caslon typeface"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="TypeHistoryPosters2.jpg"
+                alt="poster about the history of the Caslon typeface"
+              />
+            </div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="WorkButton">
+          <a href="Work.html">More Work</a>
+        </div>
+      </div>
+    </div>
+    <div class="Bio">
+      <div class="Bio-words">
+        <h2>I'm Nico...</h2>
+        <p>
+          a Graphic Design and Animation student at Seton Hill University. While
+          only in my second year, I have experience greater than that, due to
+          already having achieved an Associate of Arts degree in high school,
+          allowing me to focus more on my major in college. My work covers a
+          large...
+        </p>
+        <div class="Read-More">
+          <a href="AboutMe.html">Read More</a>
+        </div>
+      </div>
+      <img src="IMG_20240311_145609278~2.jpg" alt="Nico Morello" />
+    </div>
+    <div class="DesignH1">
+      <h1>Design Areas</h1>
+    </div>
+    <div class="Design-Areas">
+      <div class="Design-Card">
+        <img src="pencil-simple-line.svg" alt="Pencil" />
+        <h3>Traditional Illustration</h3>
+      </div>
+      <div class="Design-Card">
+        <img src="desktop.svg" alt="Computer screen" />
+        <h3>Digital Illustration</h3>
+      </div>
+      <div class="Design-Card">
+        <img src="video-camera.svg" alt="Camera" />
+        <h3>Animation and Video</h3>
+      </div>
+      <div class="Design-Card" id="poster-card">
+        <img src="Posterdesign.svg" alt="Poster" />
+        <h3>Poster Design</h3>
+      </div>
+      <div class="Design-Card" id="browsers-card">
+        <img class="poster-img" src="browsers.svg" alt="Browser pages" />
+        <h3>Web Design</h3>
+      </div>
+    </div>
+    <footer>
+      <p>n.morello@setonhill.edu</p>
+      <p class="bullet">•</p>
+      <p>nicomorello75@gmail.com</p>
+      <p class="bullet">•</p>
+      <p>440-396-2952</p>
+    </footer>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
