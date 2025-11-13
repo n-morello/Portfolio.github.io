@@ -273,6 +273,9 @@ footer p {
     align-items: center;
     gap: 5%;
 }
+.Biofull .Bio-words {
+    max-width: 50%
+}
 .Biofull img {
     max-height: 600px;
     height:auto;
