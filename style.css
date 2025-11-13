@@ -278,6 +278,7 @@ footer p {
     height:auto;
     padding: 5% 5% 5% 0%;
     max-width:50%;
+    min-width:50%;
     width:auto
 }
 .EdandExp {
