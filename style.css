@@ -273,16 +273,28 @@ footer p {
     align-items: center;
     gap: 5%;
 }
-.Biofull .Biosmall {
-    max-width: 50%
+.Biofull .Bio-words {
+    margin-right: 0;
+    max-width: 100%;
+    min-width: 60%;
 }
-.Biofull img {
-    max-height: 600px;
+.Biofull .Bio-words h2 {
+    margin-right: 0;
+}
+.Biofull .Bio-words p {
+    margin-right: 0;
+}
+.Biosmall {
+    max-width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.Biosmall img {
+    max-height: 550px;
     height:auto;
-    padding: 5% 5% 5% 0%;
-    max-width:50%;
-    min-width:50%;
-    width:auto
+    max-width:100%;
+    margin:0;
+    padding: 5% 3% 5% 2%;
 }
 .EdandExp {
     background-color: #F0FCFF;
@@ -340,26 +352,32 @@ h4 a {
     margin-left: 8%;
 }
 @media screen and (width < 1007px) {
-    .Biofull img {
+    .Biosmall img {
         max-height: 500px;
         width: auto;
     }
 }
 @media screen and (width < 860px) {
-    .Biofull img {
+    .Biosmall img {
         max-height: 450px;
         width: auto;
     }
 }
-@media screen and (width < 767px) {
-    .Biofull img {
+@media screen and (width < 778px) {
+    .Biosmall img {
         max-height: 400px;
         width: auto;
     }
 }
-@media screen and (width < 679px) {
-    .Biofull img {
+@media screen and (width < 698px) {
+    .Biosmall img {
         max-height: 350px;
+        width: auto;
+    }
+}
+@media screen and (width < 630px) {
+    .Biosmall img {
+        max-height: 300px;
         width: auto;
     }
 }
@@ -378,6 +396,7 @@ h4 a {
         display: flex;
         justify-content: center;
         margin:0;
+        max-width:100%;
     }
 }
 /*Work CSS*/
